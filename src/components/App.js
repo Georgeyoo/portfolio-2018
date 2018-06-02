@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './main';
 import { Link } from 'react-router-dom';
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
           <Layout>
-              <Header title="/G/eorge Yoo" scroll>
+              <Header className="header-color" title="/G/eorge Yoo" scroll>
                   <Navigation>
                       <Link to="/resume">Resume</Link>
                       <Link to="/aboutme">About Me</Link>
