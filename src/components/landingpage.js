@@ -12,7 +12,8 @@ class Landingpage extends Component {
                         className="avatar-img"/>
 
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer!</h1>
+                            <h1>I'm George!</h1>
+                            <h3>Full Stack Web Developer</h3>
                             <hr />
 
                             <p>
