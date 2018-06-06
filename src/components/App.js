@@ -12,7 +12,6 @@ class App extends Component {
                 <Header className="header-color" title="/G/eorge Yoo" scroll>
                     <Navigation>
                         <Link to="/">Home</Link>
-                        <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
@@ -21,7 +20,6 @@ class App extends Component {
                 <Drawer title="/G/eorge Yoo">
                     <Navigation>
                         <Link to="/">Home</Link>
-                        <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
