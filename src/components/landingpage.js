@@ -24,12 +24,17 @@ class Landingpage extends Component {
 
                                 {/* Linkedin */}
                                 <a href="https://www.linkedin.com/in/george-yoo/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" /> <span className="tooltip">Linkedin</span> 
+                                </a>
+
+                                {/* Resume Link */}
+                                <a href="https://www.linkedin.com/in/george-yoo/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-file-alt" aria-hidden="true" /> <span className="tooltip">Resume</span> 
                                 </a>
 
                                 {/* Github */}
                                 <a href="https://github.com/Georgeyoo" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                    <i className="fa fa-github-square" aria-hidden="true" /> <span className="tooltip">Github</span> 
                                 </a>
 
                             </div>

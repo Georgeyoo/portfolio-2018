@@ -5,6 +5,14 @@
   background: linear-gradient(to right, #dc2430, #7b4397); 
 }
 
+.header-color a {
+   text-decoration: none;
+}
+
+.header-color a:visited {
+   color: white;
+}
+
 .landing-grid {
   background: #7b4397;
   background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
@@ -19,6 +27,74 @@
 
 .projects-grid {
   display: flex;
+}
+
+.avatar-img {
+   height: 400px;
+   padding-top: 5em;
+   display: block;
+   margin: 0 auto;
+ }
+ 
+ .banner-text {
+   background-color: black;
+   opacity: .7;
+   width: 60%;
+   margin: auto;
+   border-radius: 300px;
+ }
+ 
+ .banner-text h1 {
+   font-size: 66px;
+   font-weight: bold;
+   color: white;
+ }
+ 
+ .banner-text h3 {
+   font-size: 35px;
+   font-weight: bold;
+   color: white;
+ }
+ 
+ .banner-text hr {
+   border-top: 5px dotted white;
+   width: 50%;
+   margin: auto;
+ }
+ 
+ .banner-text p {
+   color: white;
+   font-size: 20px;
+   padding: 1em;
+   margin: auto;
+ }
+ 
+ .social-links {
+   display: flex;
+   justify-content: space-between;
+   width: 30%;
+   margin: auto;
+ }
+ 
+ .social-links i {
+   color: white;
+   font-size: 4em;
+   padding: 10px;
+   transition: all .2s ease-in-out;
+ }
+
+ .social-links i:hover {
+   transform: scale(1.5);
+ }
+
+.social-links span {
+   color: beige;
+   text-decoration: none;
+   margin-bottom: 20px;
+ }
+
+.social-links a {
+   padding-bottom: 20px;
 }
 
 /* contact page css */
@@ -60,61 +136,6 @@
 .contact-list i {
   font-size: 60px;
   padding-right: 5rem;
-}
-
-/* contact page css */
-
-.avatar-img {
-  height: 400px;
-  padding-top: 5em;
-  display: block;
-  margin: 0 auto;
-}
-
-.banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
-  color: white;
-}
-
-.banner-text h3 {
-  font-size: 35px;
-  font-weight: bold;
-  color: white;
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-  margin: auto;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  margin: auto;
-}
-
-.social-links i {
-  color: white;
-  font-size: 6em;
-  padding: 8px;
 }
 
 /* About me page CSS */
