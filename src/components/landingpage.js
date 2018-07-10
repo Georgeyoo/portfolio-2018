@@ -27,9 +27,9 @@ class Landingpage extends Component {
                                     <i className="fa fa-linkedin-square" aria-hidden="true" /> <span className="tooltip">Linkedin</span> 
                                 </a>
 
-                                {/* Resume Link */}
-                                <a href="https://www.linkedin.com/in/george-yoo/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-file-alt" aria-hidden="true" /> <span className="tooltip">Resume</span> 
+                                {/* Stack Overflow  */}
+                                <a href="https://stackoverflow.com/users/8717398/george" target="_blank" rel="noopener noreferrer">
+                                    <i className="fab fa-stack-overflow" aria-hidden="true" /> <span className="tooltip">Stack</span> 
                                 </a>
 
                                 {/* Github */}

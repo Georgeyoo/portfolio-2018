@@ -56,12 +56,90 @@ class Projects extends Component {
         }
         else if(this.state.activeTab === 1) {
             return(
-                <div><h1>This is more React!</h1></div>
+                <div className="projects-grid">
+                    {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}> React Project #1</CardTitle>
+                        <CardText> Lorem Ipsum </CardText>
+                        <CardActions border>
+                            <Button colored>Repository</Button>
+                            <Button colored>Deployed</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Project 2 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}> React Project #2</CardTitle>
+                        <CardText> Lorem Ipsum </CardText>
+                        <CardActions border>
+                            <Button colored>Repository</Button>
+                            <Button colored>Deployed</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Project 3 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}> React Project #3</CardTitle>
+                        <CardText> Lorem Ipsum </CardText>
+                        <CardActions border>
+                            <Button colored>Repository</Button>
+                            <Button colored>Deployed</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         }
         else if(this.state.activeTab === 2) {
             return(
-                <div><h1>This is the last React category!</h1></div>
+                <div className="projects-grid">
+                    {/* Project 1 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}> React Project #1</CardTitle>
+                        <CardText> Lorem Ipsum </CardText>
+                        <CardActions border>
+                            <Button colored>Repository</Button>
+                            <Button colored>Deployed</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Project 2 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}> React Project #2</CardTitle>
+                        <CardText> Lorem Ipsum </CardText>
+                        <CardActions border>
+                            <Button colored>Repository</Button>
+                            <Button colored>Deployed</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+
+                    {/* Project 3 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}}> React Project #3</CardTitle>
+                        <CardText> Lorem Ipsum </CardText>
+                        <CardActions border>
+                            <Button colored>Repository</Button>
+                            <Button colored>Deployed</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share'/>
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         }
     }
@@ -70,9 +148,9 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab>React</Tab>
-                    <Tab>React</Tab>
-                    <Tab>React</Tab>
+                    <Tab>Solo</Tab>
+                    <Tab>Group</Tab>
+                    <Tab>Open Source</Tab>
                 </Tabs>
 
                 <Grid>
